@@ -14,7 +14,7 @@ def openRandomWikiPage():
 def openApp():
     app = Tk() #Tk-Framework initialisieren
     app.title("Random Wiki-Picker " + app_ver) #Fenstertitel setzen
-    app.geometry("335x35") #Fenstergröße setzen
+    app.geometry("370x50") #Fenstergröße setzen
     app.resizable(0, 0) #Verbietet das Neuskalieren der App   
     app_frame = ttk.Frame(app, padding=5) #Erstellt einen neuen AppFrame
     app_frame.grid() #Initialisiert das FrameGrid
